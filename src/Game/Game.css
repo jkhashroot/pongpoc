@@ -1,0 +1,45 @@
+.Game {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.gameOver {
+	width: 100%;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.midpt {
+	position: absolute;
+	height: 100%;
+	width: 2px;
+	background-color: rgba(255,255,255,0.3);
+	margin: 0 auto;
+}
+.modal-footer {
+	padding: 0;
+}
+
+.modal-footer button {
+	padding: 1rem;
+	width: 50%;
+	margin: 0!important;
+	border-radius: 0;
+	border: none;
+}
+
+.btn-primary {
+background-image: linear-gradient(-225deg, #273253 0%, #438D9B 100%);
+	border: 0px;
+}
+.btn-secondary {
+	background-image: linear-gradient(-225deg, #ACC1C7 0%, #E9EEF0 100%);
+
+	 background-blend-mode: normal, lighten, soft-light;
+}

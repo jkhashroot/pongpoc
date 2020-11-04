@@ -1,0 +1,14 @@
+.left, .right {
+  position: absolute;
+  margin: 0 3rem;
+  top: -125px;
+  color: #ffffff;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}

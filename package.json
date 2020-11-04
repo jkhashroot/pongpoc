@@ -1,0 +1,44 @@
+{
+  "name": "pong",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.3",
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.0",
+    "ramda": "^0.27.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "reactstrap": "^5.0.0-alpha.4"
+  },
+  "devDependencies": {
+    "@sambego/storybook-styles": "^1.0.0",
+    "@storybook/addon-actions": "^3.2.17",
+    "@storybook/addon-info": "^3.2.17",
+    "@storybook/addon-knobs": "^3.2.17",
+    "@storybook/addon-links": "^3.2.16",
+    "@storybook/addon-storyshots": "^3.2.17",
+    "@storybook/react": "^3.2.16",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react-app": "^3.1.0",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.5.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-rule-documentation": "^1.0.18",
+    "storybook-addon-specifications": "^2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
